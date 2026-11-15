@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="metal" x1="18" y1="8" x2="103" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0C8"/><stop offset=".25" stop-color="#DCC18A"/><stop offset=".58" stop-color="#A98243"/><stop offset=".82" stop-color="#E7D09B"/><stop offset="1" stop-color="#80602F"/>
+    </linearGradient>
+    <filter id="shadow" x="2" y="2" width="116" height="116" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+  <path d="M60 9 103 34v52L60 111 17 86V34L60 9Z" stroke="#000" stroke-opacity=".45" stroke-width="9" stroke-linejoin="round" filter="url(#shadow)"/>
+  <path d="M60 9 103 34v52L60 111 17 86V34L60 9Z" stroke="url(#metal)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M35 42h50v11H47v14h34v11H47v13H35V42Z" fill="url(#metal)"/>
+  <path d="M85 42v49" stroke="url(#metal)" stroke-width="5"/>
+  <path d="M21 35 60 12l39 23" stroke="#fff" stroke-opacity=".5" stroke-width="1.4" stroke-linecap="round"/>
+</svg>
