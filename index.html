@@ -1,555 +1,239 @@
-<!DOCTYPE html>
-
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-
-  <title>Lexaun Limited</title>
-
-  <meta charset="UTF-8">
-
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="Lexaun is a business group that builds, funds and develops ventures, supports entrepreneurs and grows businesses for the long term.">
+  <meta name="keywords" content="Lexaun, business group Bangladesh, business development Bangladesh, venture development, entrepreneurship, business building, startup support, venture funding, Logic Realm">
+  <meta name="author" content="Lexaun">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://lexaun.rf.gd/">
+  <title>Lexaun - Business Building &amp; Venture Development</title>
 
-  <link rel="icon" type="favicon" href="images/logo.png" />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lexaun">
+  <meta property="og:title" content="Lexaun - Business Building &amp; Venture Development">
+  <meta property="og:description" content="A business group building, funding and developing ventures while empowering entrepreneurs and ideas with room to grow.">
+  <meta property="og:url" content="https://lexaun.rf.gd/">
+  <meta property="og:image" content="https://lexaun.rf.gd/images/logo.png">
+  <meta property="og:image:alt" content="Lexaun logo">
+  <meta property="og:locale" content="en_BD">
 
-  <script src="https://kit.fontawesome.com/9f1dbf672c.js" crossorigin="anonymous"></script>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lexaun - Business Building &amp; Venture Development">
+  <meta name="twitter:description" content="A  business group building, funding and developing ventures while empowering entrepreneurs and ideas with room to grow.">
+  <meta name="twitter:image" content="https://lexaun.rf.gd/images/logo.png">
 
-  <link rel="stylesheet" href="css/w3.css">
-
-  <link rel="stylesheet" href="css/fonts/Railway.css">
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://lexaun.rf.gd/#organization",
+    "name": "Lexaun",
+    "url": "https://lexaun.rf.gd/",
+    "description": "A Bangladesh-based business group focused on creating, funding and developing businesses and supporting entrepreneurs.",
+    "foundingDate": "2024",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Bangladesh"
+    },
+    "logo": "https://lexaun.rf.gd/images/logo.png",
+    "email": "lexaunofficial@gmail.com",
+    "telephone": "+8801511714369",
+    "subOrganization": {
+      "@type": "Organization",
+      "name": "Logic Realm",
+      "url": "https://logicrealm.rf.gd/"
+    }
+  }
+  </script>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-
 <body>
-
-
-
-  <!-- Navbar (sit on top) -->
-
-  <div class="w3-top">
-
-    <div class="w3-bar w3-white w3-card" id="myNavbar">
-
-      <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="images/logo.png" width="30" /> LEXAUN</a>
-
-      <!-- Right-sided navbar links -->
-
-      <div class="w3-right w3-hide-small">
-
-        <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-address-card"></i> &nbsp;ABOUT</a>
-
-        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> &nbsp;TEAM</a>
-
-        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> &nbsp;CONTACT</a>
-
-      </div>
-
-      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-
-
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-        onclick="w3_open()">
-
-        <i class="fa fa-bars"></i>
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Lexaun home">
+        <img src="images/logo.png" alt="" width="34" height="34">
+        <span>LEXAUN</span>
       </a>
-
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#ventures">Our ventures</a>
+        <a href="#approach">Our approach</a>
+        <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-
-  </div>
-
-
-
-  <!-- Sidebar on small screens when clicking the menu icon -->
-
-  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
-    style="display:none" id="mySidebar">
-
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-
-    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-
-  </nav>
-
-
-
-  <!-- Header with full-height image -->
-
-  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-
-    <div class="w3-display-left w3-text-white" style="padding:48px">
-
-      <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
-
-      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
-
-      <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
-
-      <p><a href="#about"
-          class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more
-          and start today</a></p>
-
-    </div>
-
-    <!--div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-
-  </div-->
-
   </header>
 
-
-
-  <!-- About Section -->
-
-  <div class="w3-container" style="padding:128px 16px" id="about">
-
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-
-    <p class="w3-center w3-large">Key features of our company</p>
-
-    <div class="w3-row-padding w3-center" style="margin-top:64px">
-
-
-
-      <div class="w3-quarter">
-
-        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-
-        <p class="w3-large">Passion</p>
-
-        <p>
-
-          Driving innovation and excellence across all our businesses.
-
-        </p>
-
+  <main id="main">
+    <section class="hero section-shell">
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> An independent business group</p>
+        <h1>Building businesses.<br><span>Empowering people.</span></h1>
+        <p class="hero-copy">We believe meaningful businesses are built with ambition, clear thinking and the determination to turn ideas into lasting value.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#about">Discover Lexaun <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#ventures">Explore our ventures <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-foot">
+          <span>Founded 2024</span>
+          <span class="hero-foot-rule"></span>
+          <span>Driven by ambition</span>
+        </div>
       </div>
+      <div class="hero-index" aria-hidden="true">L / 01</div>
+    </section>
 
-
-
-      <div class="w3-quarter">
-
-        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-
-        <p class="w3-large">Support</p>
-
-        <p>
-
-          Committed to supporting our subsidiaries with the resources and guidance they need to succeed.
-
-        </p>
-
+    <section class="intro section-pad" id="about">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Who we are</p>
+          <h2>A foundation for<br><em>what comes next.</em></h2>
+        </div>
+        <div class="intro-copy">
+          <p class="lead">Lexaun is a business-building group focused on creating, funding and developing companies with room to grow.</p>
+          <p>Founded in 2024, our story began with a simple ambition: to build successful businesses. We bring an entrepreneurial mindset to new ideas and back the potential of people working to make them real.</p>
+          <a class="text-link dark-link" href="#approach">Our philosophy <span aria-hidden="true">→</span></a>
+        </div>
       </div>
+    </section>
 
-
-
-      <div class="w3-quarter">
-
-        <i class="fa fa-bullseye w3-margin-bottom w3-jumbo"></i>
-
-        <p class="w3-large">Goals</p>
-
-        <p>
-
-          To optimize synergy and maximize success across our portfolio of companies.
-
-        </p>
-
-      </div>
-
-
-
-      <div class="w3-quarter">
-
-        <i class="fa fa-lightbulb w3-margin-bottom w3-jumbo"></i>
-
-        <p class="w3-large">Innovation</p>
-
-        <p>
-
-          We value innovative ideas and are dedicated to turning them into successful realities.
-
-        </p>
-
-      </div>
-
-
-
-    </div>
-
-  </div>
-
-
-
-  <!-- Promo Section - "We know design" 
-
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-
-  <div class="w3-row-padding">
-
-    <div class="w3-col m6">
-
-      <h3>We know design.</h3>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
-
-    </div>
-
-    <div class="w3-col m6">
-
-      <img class="w3-image w3-round-large" src="images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
-
-    </div>
-
-  </div>
-
-</div>-->
-
-
-
-
-
-  <!-- Promo Section "Statistics" >
-
-<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-
-  <h3 class="w3-center" style="font-weight:bold;" >Companies</h3>
-
-  
-
-</div-->
-
-  <hr class="rounded">
-
-  <!-- Team Section -->
-
-  <div class="w3-container" style="padding:128px 16px; " id="team">
-
-    <h3 class="w3-center">THE TEAM</h3>
-
-    <p class="w3-center w3-large">The ones who runs this company</p>
-
-    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-
-
-
-      <div class="w3-col l3 m6 w3-margin-bottom">
-
-        <div class="w3-card">
-
-          <img src="images/team1.png" alt="Mobashshir" style="width:100%">
-
-          <div class="w3-container">
-
-            <h3>MD Mobashshirul Karim</h3>
-
-            <p class="w3-opacity">CEO & Founder</p>
-
-            <a href="mailto:skilfolio@gmail.com" style="text-decoration:none;"><button
-                class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-
+    <section class="principles section-pad" id="approach">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> What guides us</p>
+            <h2>Ambition, with<br><em>purpose.</em></h2>
           </div>
-
+          <p class="section-aside">Big ideas matter. Building them thoughtfully matters more. These principles shape how we approach every opportunity.</p>
         </div>
-
+        <div class="principle-grid">
+          <article class="principle-card">
+            <span class="principle-number">01</span>
+            <div class="principle-icon" aria-hidden="true">↗</div>
+            <h3>Build with intent</h3>
+            <p>We look for meaningful opportunities and approach business creation with focus, curiosity and a long-term perspective.</p>
+          </article>
+          <article class="principle-card">
+            <span class="principle-number">02</span>
+            <div class="principle-icon" aria-hidden="true">◇</div>
+            <h3>Empower potential</h3>
+            <p>We believe entrepreneurs deserve thoughtful support, practical resources and the opportunity to develop promising ideas.</p>
+          </article>
+          <article class="principle-card">
+            <span class="principle-number">03</span>
+            <div class="principle-icon" aria-hidden="true">◎</div>
+            <h3>Think beyond today</h3>
+            <p>We value steady progress and sustainable foundations as we work towards a broader, globally minded business group.</p>
+          </article>
+        </div>
       </div>
+    </section>
 
-
-
-      <div class="w3-col l3 m6 w3-margin-bottom">
-
-        <div class="w3-card">
-
-          <img src="images/team2.png" alt="Farhan" style="width:100%">
-
-          <div class="w3-container">
-
-            <h3>MD Farhan Uddin</h3>
-
-            <p class="w3-opacity">Co-Founder | Graphics Designer</p>
-
-            <a href="mailto:farhanuddin3001@gmail.com" style="text-decoration:none;"><button
-                class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-
+    <section class="ventures section-pad" id="ventures">
+      <div class="container">
+        <div class="section-heading ventures-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Our ventures</p>
+            <h2>Ideas in motion.<br><em>Businesses in progress.</em></h2>
           </div>
-
+          <p class="section-aside">A growing portfolio shaped by the belief that good ideas deserve the chance to become great businesses.</p>
         </div>
-
-      </div>
-
-
-
-      <!--div class="w3-col l3 m6 w3-margin-bottom">
-
-      <div class="w3-card">
-
-        <img src="images/team3.png" alt="Imran" style="width:100%">
-
-        <div class="w3-container">
-
-          <h3>MD Imran Hossain</h3>
-
-          <p class="w3-opacity">Co-Founder | Penetration Tester</p>
-
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-
-        </div>
-
-      </div>
-
-    </div-->
-
-
-
-      <div class="w3-col l3 m6 w3-margin-bottom">
-
-        <div class="w3-card">
-
-          <img src="images/team4.png" alt="Ratul" style="width:100%">
-
-          <div class="w3-container">
-
-            <h3>MD Mehedi Hasan Ratul</h3>
-
-            <p class="w3-opacity">Accountant</p>
-
-            <a href="mailto:ratulhasa5566@gmail.com" style="text-decoration:none;"><button
-                class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-
+        <article class="venture-card">
+          <div class="venture-visual" aria-label="Logic Realm digital brand artwork">
+            <div class="venture-visual-grid"></div>
+            <div class="venture-orbit orbit-a"></div>
+            <div class="venture-orbit orbit-b"></div>
+            <img class="venture-logo" src="images/logic-realm-logo.svg" alt="Logic Realm logo" width="160" height="160">
+            <span class="visual-caption">A LEXAUN VENTURE</span>
           </div>
-
-        </div>
-
+          <div class="venture-info">
+            <p class="eyebrow">01 / Digital venture</p>
+            <h3>Logic Realm</h3>
+            <p>A digital venture within the Lexaun portfolio, bringing together software, technology and online experiences.</p>
+            <a class="text-link" href="https://logicrealm.rf.gd/" target="_blank" rel="noopener noreferrer">Visit Logic Realm <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#contact">Venture enquiries <span aria-hidden="true">↗</span></a>
+            <span class="venture-status">Current portfolio</span>
+          </div>
+        </article>
+        <p class="portfolio-note">Our portfolio will evolve as new opportunities take shape.</p>
       </div>
+    </section>
 
+    <section class="vision section-pad">
+      <div class="container vision-inner">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Looking forward</p>
+        <h2>Built here.<br><em>Open to the world.</em></h2>
+        <p>Our ambition is to develop a diverse group of businesses with the mindset, foundations and potential to grow beyond borders.</p>
+        <a class="button button-outline" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+        <span class="vision-mark" aria-hidden="true">L</span>
+      </div>
+    </section>
 
+    <section class="funding section-pad">
+      <div class="container funding-grid">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Funding philosophy</p>
+          <h2>Backing the<br><em>will to build.</em></h2>
+        </div>
+        <div class="funding-copy">
+          <p class="lead">Capital can be a starting point. Vision, commitment and execution give it direction.</p>
+          <p>Lexaun is interested in the potential of new businesses and the people determined to build them. We approach opportunities with an entrepreneurial outlook and a focus on creating strong foundations for growth.</p>
+          <p class="small-note">Funding availability and consideration are subject to individual review. This page is informational and is not an open application or an offer of investment.</p>
+        </div>
+      </div>
+    </section>
 
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-heading">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Get in touch</p>
+          <h2>Good things<br><em>start with a conversation.</em></h2>
+          <p>For business, venture and general enquiries, reach the Lexaun team through the contact channels below.</p>
+        </div>
+        <div class="contact-details" aria-label="Lexaun contact information">
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a class="contact-value" href="mailto:lexaunofficial@gmail.com">lexaunofficial@gmail.com</a>
+            <span class="contact-hint">General enquiries</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <a class="contact-value" href="tel:+8801511714369">+880 1511-714369</a>
+            <span class="contact-hint">Business enquiries</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">WhatsApp</span>
+            <a class="contact-value" href="https://wa.me/8801814714369" target="_blank" rel="noopener noreferrer">+880 1814-714369</a>
+            <span class="contact-hint">Direct messages</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#top"><img src="images/logo.png" alt="" width="34" height="34"><span>LEXAUN</span></a>
+      <p>Building businesses.<br>Empowering people.</p>
+      <a class="back-top" href="#top" id="back-to-top" aria-label="Back to top">Back to top <span aria-hidden="true">↑</span></a>
     </div>
-
-  </div>
-
-
-
-
-
-  <!-- Promo Section "Statistics" >
-
-<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-
-  <div class="w3-quarter">
-
-    <span class="w3-xxlarge">14+</span>
-
-    <br>Partners
-
-  </div>
-
-  <div class="w3-quarter">
-
-    <span class="w3-xxlarge">55+</span>
-
-    <br>Projects Done
-
-  </div>
-
-  <div class="w3-quarter">
-
-    <span class="w3-xxlarge">89+</span>
-
-    <br>Happy Clients
-
-  </div>
-
-  <div class="w3-quarter">
-
-    <span class="w3-xxlarge">150+</span>
-
-    <br>Meetings
-
-  </div>
-
-</div>
-
-
-
-
-
-<!--Modal for full size images on click
-
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-
-    <img id="img01" class="w3-image">
-
-    <p id="caption" class="w3-opacity w3-large"></p>
-
-  </div>
-
-</div>-->
-
-
-
-
-
-  <!-- Contact Section -->
-
-  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-
-    <h3 class="w3-center">CONTACT</h3>
-
-    <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-
-    <div style="margin-top:48px">
-
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chuadanga, Bangladesh </p>
-
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +880 1814 714369</p>
-
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: lexaunofficial@gmail.com</p>
-
-      <br>
-
-      <form action="/action_page.php" target="_blank">
-
-        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-
-        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-
-        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-
-        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-
-        <p>
-
-          <button class="w3-button w3-black" type="submit">
-
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-
-          </button>
-
-        </p>
-
-      </form>
-
-      <!-- Image of location/map -->
-
-      <img src="images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
-
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Lexaun. All rights reserved.</span>
+      <span>Founded 2024 · Bangladesh</span>
     </div>
-
-  </div>
-
-
-
-  <!-- Footer -->
-
-  <footer class="w3-center w3-black w3-padding-64">
-
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-
-    <!--div class="w3-xlarge w3-section">
-
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-
-  </div-->
-
-    <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
-        class="w3-hover-text-green">w3.css</a></p> -->
-
   </footer>
-
-
-
-  <script>
-
-    // Modal Image Gallery
-
-    /*function onClick(element) {
-    
-      document.getElementById("img01").src = element.src;
-    
-      document.getElementById("modal01").style.display = "block";
-    
-      var captionText = document.getElementById("caption");
-    
-      captionText.innerHTML = element.alt;
-    
-    }*/
-
-
-
-
-
-    // Toggle between showing and hiding the sidebar when clicking the menu icon
-
-    var mySidebar = document.getElementById("mySidebar");
-
-
-
-    function w3_open() {
-
-      if (mySidebar.style.display === 'block') {
-
-        mySidebar.style.display = 'none';
-
-      } else {
-
-        mySidebar.style.display = 'block';
-
-      }
-
-    }
-
-
-
-    // Close the sidebar with the close button
-
-    function w3_close() {
-
-      mySidebar.style.display = "none";
-
-    }
-
-  </script>
-
-
-
+  <script src="js/script.js" defer></script>
 </body>
-
 </html>
