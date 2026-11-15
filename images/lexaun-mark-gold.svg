@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
-  <defs><linearGradient id="champagne" x1="18" y1="15" x2="101" y2="105" gradientUnits="userSpaceOnUse"><stop stop-color="#E8D7AE"/><stop offset=".48" stop-color="#C5A66A"/><stop offset="1" stop-color="#987641"/></linearGradient></defs>
-  <path d="M27 38.5C27 29.94 33.94 23 42.5 23H77.5C86.06 23 93 29.94 93 38.5V73.5C93 82.06 86.06 89 77.5 89H42.5C33.94 89 27 82.06 27 73.5V57" stroke="url(#champagne)" stroke-width="7" stroke-linecap="round"/>
-  <path d="M27 57H62.5C71.06 57 78 50.06 78 41.5V23" stroke="url(#champagne)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M42 89V72.5C42 63.94 48.94 57 57.5 57" stroke="url(#champagne)" stroke-width="7" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" fill="none"><defs><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B99A78"/><stop offset=".48" stop-color="#F0E4D8"/><stop offset="1" stop-color="#92765B"/></linearGradient></defs><g transform="translate(0 25)"><g fill="none" stroke="url(#metal)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M246 260 104 118Q83 97 104 76L205  -25Q226 -46 247 -25L426 154"/>
+    <path d="M654 260 796 118Q817 97 796 76L695 -25Q674 -46 653 -25L474 154"/>
+    <path d="M246 260 104 402Q83 423 104 444L205 545Q226 566 247 545L426 366"/>
+    <path d="M654 260 796 402Q817 423 796 444L695 545Q674 566 653 545L474 366"/>
+  </g>
+  <g fill="none" stroke="url(#metal)" stroke-width="30" stroke-linecap="butt">
+    <path d="M247 238 390 381"/>
+    <path d="M653 238 510 381"/>
+  </g><g fill="none" stroke="url(#metal)" stroke-width="30" stroke-linecap="butt">
+    <path d="M230 162 365 297"/>
+    <path d="M670 162 535 297"/>
+  </g></g></svg>
