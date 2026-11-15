@@ -5,6 +5,20 @@
 
   if (year) year.textContent = String(new Date().getFullYear());
 
+  // Central contact configuration: replace these values when official channels are ready.
+  const lexContact = Object.freeze({
+    email: "Email address coming soon",
+    phone: "+880 1XXX-XXXXXX",
+    whatsapp: "+880 1XXX-XXXXXX"
+  });
+
+  document.querySelectorAll("[data-contact-value]").forEach((element) => {
+    const key = element.dataset.contactValue;
+    if (Object.prototype.hasOwnProperty.call(lexContact, key)) {
+      element.textContent = lexContact[key];
+    }
+  });
+
   const backToTop = document.querySelector("#back-to-top");
 
   if (backToTop) {
