@@ -5,6 +5,17 @@
 
   if (year) year.textContent = String(new Date().getFullYear());
 
+  const backToTop = document.querySelector("#back-to-top");
+
+  if (backToTop) {
+    backToTop.addEventListener("click", (event) => {
+      event.preventDefault();
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: reducedMotion ? "auto" : "smooth" });
+      history.replaceState(null, "", "#top");
+    });
+  }
+
   if (!toggle || !nav) return;
 
   const closeMenu = () => {
