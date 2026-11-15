@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" fill="none">
+  <g transform="translate(8 0) scale(1)">
+    <path d="M27 38.5C27 29.94 33.94 23 42.5 23H77.5C86.06 23 93 29.94 93 38.5V73.5C93 82.06 86.06 89 77.5 89H42.5C33.94 89 27 82.06 27 73.5V57" stroke="#C5A66A" stroke-width="7" stroke-linecap="round"/>
+    <path d="M27 57H62.5C71.06 57 78 50.06 78 41.5V23" stroke="#C5A66A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M42 89V72.5C42 63.94 48.94 57 57.5 57" stroke="#C5A66A" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="142" y="76" fill="#F4F1E9" font-family="Georgia, Times New Roman, serif" font-size="54" letter-spacing="10">LEXAUN</text>
+</svg>
